@@ -1,0 +1,397 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body {
+margin: 0;
+height: 100%;
+overflow: hidden;
+background-color: whitesmoke;
+}
+
+
+.left{
+    background-image: linear-gradient(#AD1DEB, #6E72FC);
+   padding-right: 400px;
+   padding-bottom: 30rem ;
+   padding-top: 9rem;
+   display: inline-table;
+border-bottom-right-radius: 12rem;
+border-bottom-left-radius: 10rem;
+}
+   
+
+.mobile{
+    background-color:white;
+   
+    display: inline;   
+    padding-inline: 10rem;
+   padding-top: 35rem;
+   padding-bottom: 3rem;
+    border-radius: 2rem; 
+    position: relative;
+    right: 70px ;
+    bottom: 30px;
+   
+}
+
+
+
+@media ( max-width:1110px){
+    .left{
+      padding-right: 220px;
+      padding-bottom: 20rem;
+      padding-top: 13rem;
+      border-bottom-right-radius: 15rem;
+      border-bottom-left-radius: 0;
+    }
+}
+
+@media ( max-width:1110px){
+    .mobile{
+        display: inline;
+        padding-top:33rem ;
+        padding-inline: 10rem;
+       margin-top: 2rem;
+        right:160px;
+        top: 30px;
+    }
+}
+
+.item{
+    color: black;
+    background-color:whitesmoke;
+   padding:1rem 9.5rem 1rem 9.5rem;
+   display: inline;
+   position: relative;
+   right:23.9rem;
+   bottom: 0.3rem;
+   border-radius: 2rem;
+    
+
+}
+
+  @media(max-width:1110px){
+    .item{
+        padding:1rem 9rem 1rem 10.7rem;
+        right:29.8rem;
+        top: 3.5rem;
+
+    }
+  }
+
+ 
+  p{display: inline;
+    position: relative;
+   left: 22.5rem;
+   bottom: 1.3rem;
+    font-size: small;
+    opacity: 0.3;
+}
+
+@media(max-width:1110px){
+    p{display: inline;
+        left: 5rem;
+        top: 2.5rem;
+    }
+}
+
+.back{
+    overflow: hidden;
+    background-color:whitesmoke;
+    display: inline;
+    position: relative;
+    padding: 15.3rem 10rem 18rem 9rem; 
+    left: 15.4rem;
+    bottom: 22rem; 
+   border-radius: 1rem;
+}
+
+@media(max-width:1110px){
+    .back{
+        padding: 15rem 11.7rem 15rem 7.5rem ;
+        bottom: 15rem;
+        left: -25px;
+    }
+}
+
+.one{
+    display: inline;
+    position: relative;
+    left: 21rem;
+    bottom: 34rem;
+    font-size: xx-small;
+    
+}
+
+.three{
+    font-family: 'Rubik', sans-serif;
+    padding: 0.5rem;
+    font-size: 12px;
+    color: #AD1DEB;
+    background-color: #dbd2e0;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    max-width:13rem ;
+    border-radius: 1rem 1rem 1rem 0.2em;
+}
+
+img{
+    max-width: 3rem;
+    border-radius: 1rem;  
+    margin:0.5rem; 
+
+}
+
+.six{
+    margin-left: 6rem;
+}
+
+.two{
+    font-family: 'Rubik', sans-serif;
+    margin-left: 7.5rem;
+    font-size: 10px;
+    margin-bottom: 0.5rem;
+    background-color: white;
+    max-width: 11.5rem;
+    padding: 0.5rem;
+    border-radius: 1rem 1rem 1rem 0.2em;
+
+}
+
+.four{
+    font-family: 'Rubik', sans-serif;
+     font-size: 12px;
+     margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    color: #AD1DEB;
+    background-color:#dbd2e0 ;
+    max-width: 12rem;
+    border-radius: 1rem 1rem 1rem 0.2em;
+    padding: 0.5rem;
+}
+
+.five{
+    font-family: 'Rubik', sans-serif;
+    padding: 0.2rem;
+    
+    margin: 0.5rem;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(207,0,255,1) 0%, rgba(55,24,108,1) 100%);
+    color: white;
+    max-width: 14rem;
+    border-radius: 1rem 1rem 1rem 0.2em;
+    font-size: x-small;
+   
+}
+
+.amount{
+    margin-inline: 1.5rem;
+    font-size: 20px;
+    font-weight: bolder;
+    
+    }
+
+    .ring{
+        font-size: 30px;
+        opacity: 0.3;
+    }
+    
+    @media(max-width:1110px){
+        .one{
+           left: 4rem;
+           bottom: 28.5rem;
+        }
+    }
+
+.top{
+    padding: 1.5rem 0.8rem 2rem 4.8rem;
+
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(207,0,255,1) 0%, rgba(55,24,108,1) 100%);
+    position: relative;
+    display: inline;
+    border-radius: 1rem 1rem 0 0;
+    left: 0.08rem;
+    bottom: 35rem;
+}
+.profile{
+    position: relative;
+    background-color: white;
+    padding: 0.08rem;
+    border-radius: 3rem;
+    right:3.3rem;
+    top: 2.3rem;
+   max-width: 2rem;
+    
+
+}
+
+.over{
+    background-color:white;
+    color: white;
+    display: inline;
+    position: relative;
+    padding: 1rem 5.5rem 0.5rem 5.5rem;
+    right: 15rem;
+    bottom: 36rem;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.top-text{
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    display: inline;
+    position: relative;
+    padding: 0;
+    font-size: 13px;
+    right: 3rem;
+    top: 0.7rem;
+    
+}
+
+.top-text-two{
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    display: inline;
+    position: relative;
+    font-size: 10px;
+    right: 8.4rem;
+    top: 1.7rem;
+    opacity: 0.5;
+}
+
+.dot{
+    color:white;
+    font-size: 20px;
+    position: relative;
+     left: 17rem;
+     bottom: 36rem;
+}
+
+.back-arrow{
+    color: white;
+    font-size:30px;
+    position: relative;
+    bottom: 38.5rem;
+    left: 0.9rem;
+    font-weight: bolder;
+}
+
+.sent{
+    color: white;
+    display: inline;
+    position: relative;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: darkblue;
+    padding: 0.3rem 1rem 0.4rem 1rem;
+    border-radius: 2rem;
+    left: 16rem;
+    bottom: 5.2rem;
+}
+
+.side-text{
+    
+   font-size: 14px;
+    text-align: center;
+  display: inline;
+  position: relative;
+  bottom: 25rem;
+  right: 1rem;
+  line-height: 1.5rem;
+  font-weight: bolder;
+}
+
+.below-text{
+    font-family:'Rubik', sans-serif ;
+}
+
+.booking{
+    margin-bottom: 1rem;
+    color: darkblue;
+}
+
+
+
+@media(max-width:1110px){
+    .top{
+        padding-top:0.8rem;
+        padding-bottom: 3rem;
+        left:0.1rem ;
+        bottom: 34.7rem;
+        border-radius: 1.5rem 1.5rem 0 0;
+    }
+.three{
+    margin-bottom: 0.5rem;
+    
+}
+
+.profile{
+    top: 3rem;
+}
+
+.top-text-two{
+    top: 2.5rem;
+}
+
+.top-text{
+    top: 1.5rem;
+}
+
+.over{
+    bottom: 35rem;
+    padding:0.7rem 5.5rem 0.4rem 5.5rem ;
+}
+.dot{
+    bottom: 34.5rem;
+}
+
+.back-arrow{
+    left: 1rem;
+    bottom: 37.8rem;
+}
+.sent{
+    bottom: 5.9rem;
+    left:16.7rem ;
+}
+.side-text{
+    bottom: 3rem;
+    right: 5rem;
+}
+.below-text{
+    font-size: 12px;
+    }
+
+}
+
+@media(max-width:414px){
+    .over{
+        right: 0;
+        left: 4rem;
+        bottom: 36rem;
+    }
+
+    .sent{
+        bottom: 7rem;
+    }
+}
+
+@media(max-width:540px){
+
+    main{
+        position: absolute;
+    }
+
+.side-text{
+    top: -1rem;
+    right: 17rem;
+
+}
+
+
+}
+
